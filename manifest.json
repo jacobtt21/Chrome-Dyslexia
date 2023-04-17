@@ -11,7 +11,7 @@
   "content_scripts": [
     {
       "css": [ "newFont.css" ],
-      "matches": [ "https://*/*" ]
+      "matches": [ "https://*/*", "http://*/*" ]
     }
   ]
 }
